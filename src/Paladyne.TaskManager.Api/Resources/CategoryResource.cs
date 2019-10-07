@@ -1,4 +1,4 @@
-namespace Supermarket.API.Resources
+namespace Paladyne.TaskManager.Api.Resources
 {
     public class CategoryResource
     {

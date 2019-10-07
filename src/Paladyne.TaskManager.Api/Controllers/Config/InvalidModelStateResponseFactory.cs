@@ -1,9 +1,9 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Supermarket.API.Extensions;
-using Supermarket.API.Resources;
+using Paladyne.TaskManager.Api.Extensions;
+using Paladyne.TaskManager.Api.Resources;
 
-namespace Supermarket.API.Controllers.Config
+namespace Paladyne.TaskManager.Api.Controllers.Config
 {
     public static class InvalidModelStateResponseFactory
     {

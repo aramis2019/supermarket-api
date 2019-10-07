@@ -1,6 +1,6 @@
-using Supermarket.API.Persistence.Contexts;
+using Paladyne.TaskManager.Api.Persistence.Contexts;
 
-namespace Supermarket.API.Persistence.Repositories
+namespace Paladyne.TaskManager.Api.Persistence.Repositories
 {
     public abstract class BaseRepository
     {

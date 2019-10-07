@@ -8,15 +8,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Supermarket.API.Controllers.Config;
-using Supermarket.API.Domain.Repositories;
-using Supermarket.API.Domain.Services;
-using Supermarket.API.Persistence.Contexts;
-using Supermarket.API.Persistence.Repositories;
-using Supermarket.API.Services;
+using Paladyne.TaskManager.Api.Controllers.Config;
+using Paladyne.TaskManager.Api.Domain.Repositories;
+using Paladyne.TaskManager.Api.Domain.Services;
+using Paladyne.TaskManager.Api.Persistence.Contexts;
+using Paladyne.TaskManager.Api.Persistence.Repositories;
+using Paladyne.TaskManager.Api.Services;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace Supermarket.API
+namespace Paladyne.TaskManager.Api
 {
     public class Startup
     {

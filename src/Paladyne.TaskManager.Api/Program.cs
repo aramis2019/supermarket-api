@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using Supermarket.API.Persistence.Contexts;
+using Paladyne.TaskManager.Api.Persistence.Contexts;
 
-namespace Supermarket.API
+namespace Paladyne.TaskManager.Api
 {
     public class Program
     {

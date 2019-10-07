@@ -2,12 +2,12 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Supermarket.API.Domain.Models;
-using Supermarket.API.Domain.Models.Queries;
-using Supermarket.API.Domain.Services;
-using Supermarket.API.Resources;
+using Paladyne.TaskManager.Api.Domain.Models;
+using Paladyne.TaskManager.Api.Domain.Models.Queries;
+using Paladyne.TaskManager.Api.Domain.Services;
+using Paladyne.TaskManager.Api.Resources;
 
-namespace Supermarket.API.Controllers
+namespace Paladyne.TaskManager.Api.Controllers
 {
     [Route("/api/products")]
     [Produces("application/json")]

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace Supermarket.API.Extensions
+namespace Paladyne.TaskManager.Api.Extensions
 {
     public static class ModelStateExtensions
     {

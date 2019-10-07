@@ -1,4 +1,4 @@
-namespace Supermarket.API.Infrastructure
+namespace Paladyne.TaskManager.Api.Infrastructure
 {
     public enum CacheKeys
     {

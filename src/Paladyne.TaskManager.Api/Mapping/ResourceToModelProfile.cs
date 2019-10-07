@@ -1,9 +1,9 @@
 using AutoMapper;
-using Supermarket.API.Domain.Models;
-using Supermarket.API.Domain.Models.Queries;
-using Supermarket.API.Resources;
+using Paladyne.TaskManager.Api.Domain.Models;
+using Paladyne.TaskManager.Api.Domain.Models.Queries;
+using Paladyne.TaskManager.Api.Resources;
 
-namespace Supermarket.API.Mapping
+namespace Paladyne.TaskManager.Api.Mapping
 {
     public class ResourceToModelProfile : Profile
     {

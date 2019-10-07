@@ -1,4 +1,4 @@
-namespace Supermarket.API.Domain.Models
+namespace Paladyne.TaskManager.Api.Domain.Models
 {
     public class Product
     {

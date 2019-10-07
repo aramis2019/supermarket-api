@@ -2,12 +2,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Supermarket.API.Domain.Models;
-using Supermarket.API.Domain.Models.Queries;
-using Supermarket.API.Domain.Repositories;
-using Supermarket.API.Persistence.Contexts;
+using Paladyne.TaskManager.Api.Domain.Models;
+using Paladyne.TaskManager.Api.Domain.Models.Queries;
+using Paladyne.TaskManager.Api.Domain.Repositories;
+using Paladyne.TaskManager.Api.Persistence.Contexts;
 
-namespace Supermarket.API.Persistence.Repositories
+namespace Paladyne.TaskManager.Api.Persistence.Repositories
 {
     public class ProductRepository : BaseRepository, IProductRepository
     {

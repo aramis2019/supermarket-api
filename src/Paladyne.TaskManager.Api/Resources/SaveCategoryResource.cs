@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Supermarket.API.Resources
+namespace Paladyne.TaskManager.Api.Resources
 {
     public class SaveCategoryResource
     {

@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Supermarket.API.Domain.Models;
-using Supermarket.API.Domain.Repositories;
-using Supermarket.API.Persistence.Contexts;
+using Paladyne.TaskManager.Api.Domain.Models;
+using Paladyne.TaskManager.Api.Domain.Repositories;
+using Paladyne.TaskManager.Api.Persistence.Contexts;
 
-namespace Supermarket.API.Persistence.Repositories
+namespace Paladyne.TaskManager.Api.Persistence.Repositories
 {
     public class CategoryRepository : BaseRepository, ICategoryRepository
     {

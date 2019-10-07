@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Supermarket.API.Domain.Models.Queries
+namespace Paladyne.TaskManager.Api.Domain.Models.Queries
 {
     public class QueryResult<T>
     {

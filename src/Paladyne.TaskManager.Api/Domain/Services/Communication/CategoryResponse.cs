@@ -1,6 +1,6 @@
-using Supermarket.API.Domain.Models;
+using Paladyne.TaskManager.Api.Domain.Models;
 
-namespace Supermarket.API.Domain.Services.Communication
+namespace Paladyne.TaskManager.Api.Domain.Services.Communication
 {
     public class CategoryResponse : BaseResponse<Category>
     {

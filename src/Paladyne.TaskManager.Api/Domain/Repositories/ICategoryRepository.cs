@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Supermarket.API.Domain.Models;
+using Paladyne.TaskManager.Api.Domain.Models;
 
-namespace Supermarket.API.Domain.Repositories
+namespace Paladyne.TaskManager.Api.Domain.Repositories
 {
     public interface ICategoryRepository
     {

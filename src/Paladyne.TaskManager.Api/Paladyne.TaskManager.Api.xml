@@ -4,20 +4,20 @@
         <name>Paladyne.TaskManager.Api</name>
     </assembly>
     <members>
-        <member name="M:Supermarket.API.Controllers.CategoriesController.ListAsync">
+        <member name="M:Paladyne.TaskManager.Api.Controllers.CategoriesController.ListAsync">
             <summary>
             Lists all categories.
             </summary>
             <returns>List os categories.</returns>
         </member>
-        <member name="M:Supermarket.API.Controllers.CategoriesController.PostAsync(Supermarket.API.Resources.SaveCategoryResource)">
+        <member name="M:Paladyne.TaskManager.Api.Controllers.CategoriesController.PostAsync(Paladyne.TaskManager.Api.Resources.SaveCategoryResource)">
             <summary>
             Saves a new category.
             </summary>
             <param name="resource">Category data.</param>
             <returns>Response for the request.</returns>
         </member>
-        <member name="M:Supermarket.API.Controllers.CategoriesController.PutAsync(System.Int32,Supermarket.API.Resources.SaveCategoryResource)">
+        <member name="M:Paladyne.TaskManager.Api.Controllers.CategoriesController.PutAsync(System.Int32,Paladyne.TaskManager.Api.Resources.SaveCategoryResource)">
             <summary>
             Updates an existing category according to an identifier.
             </summary>
@@ -25,27 +25,27 @@
             <param name="resource">Updated category data.</param>
             <returns>Response for the request.</returns>
         </member>
-        <member name="M:Supermarket.API.Controllers.CategoriesController.DeleteAsync(System.Int32)">
+        <member name="M:Paladyne.TaskManager.Api.Controllers.CategoriesController.DeleteAsync(System.Int32)">
             <summary>
             Deletes a given category according to an identifier.
             </summary>
             <param name="id">Category identifier.</param>
             <returns>Response for the request.</returns>
         </member>
-        <member name="M:Supermarket.API.Controllers.ProductsController.ListAsync(Supermarket.API.Resources.ProductsQueryResource)">
+        <member name="M:Paladyne.TaskManager.Api.Controllers.ProductsController.ListAsync(Paladyne.TaskManager.Api.Resources.ProductsQueryResource)">
             <summary>
             Lists all existing products.
             </summary>
             <returns>List of products.</returns>
         </member>
-        <member name="M:Supermarket.API.Controllers.ProductsController.PostAsync(Supermarket.API.Resources.SaveProductResource)">
+        <member name="M:Paladyne.TaskManager.Api.Controllers.ProductsController.PostAsync(Paladyne.TaskManager.Api.Resources.SaveProductResource)">
             <summary>
             Saves a new product.
             </summary>
             <param name="resource">Product data.</param>
             <returns>Response for the request.</returns>
         </member>
-        <member name="M:Supermarket.API.Controllers.ProductsController.PutAsync(System.Int32,Supermarket.API.Resources.SaveProductResource)">
+        <member name="M:Paladyne.TaskManager.Api.Controllers.ProductsController.PutAsync(System.Int32,Paladyne.TaskManager.Api.Resources.SaveProductResource)">
             <summary>
             Updates an existing product according to an identifier.
             </summary>
@@ -53,21 +53,21 @@
             <param name="resource">Product data.</param>
             <returns>Response for the request.</returns>
         </member>
-        <member name="M:Supermarket.API.Controllers.ProductsController.DeleteAsync(System.Int32)">
+        <member name="M:Paladyne.TaskManager.Api.Controllers.ProductsController.DeleteAsync(System.Int32)">
             <summary>
             Deletes a given product according to an identifier.
             </summary>
             <param name="id">Product identifier.</param>
             <returns>Response for the request.</returns>
         </member>
-        <member name="M:Supermarket.API.Domain.Services.Communication.CategoryResponse.#ctor(Supermarket.API.Domain.Models.Category)">
+        <member name="M:Paladyne.TaskManager.Api.Domain.Services.Communication.CategoryResponse.#ctor(Paladyne.TaskManager.Api.Domain.Models.Category)">
             <summary>
             Creates a success response.
             </summary>
             <param name="category">Saved category.</param>
             <returns>Response.</returns>
         </member>
-        <member name="M:Supermarket.API.Domain.Services.Communication.CategoryResponse.#ctor(System.String)">
+        <member name="M:Paladyne.TaskManager.Api.Domain.Services.Communication.CategoryResponse.#ctor(System.String)">
             <summary>
             Creates am error response.
             </summary>

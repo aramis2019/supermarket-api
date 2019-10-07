@@ -1,14 +1,14 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Caching.Memory;
-using Supermarket.API.Domain.Models;
-using Supermarket.API.Domain.Models.Queries;
-using Supermarket.API.Domain.Repositories;
-using Supermarket.API.Domain.Services;
-using Supermarket.API.Domain.Services.Communication;
-using Supermarket.API.Infrastructure;
+using Paladyne.TaskManager.Api.Domain.Models;
+using Paladyne.TaskManager.Api.Domain.Models.Queries;
+using Paladyne.TaskManager.Api.Domain.Repositories;
+using Paladyne.TaskManager.Api.Domain.Services;
+using Paladyne.TaskManager.Api.Domain.Services.Communication;
+using Paladyne.TaskManager.Api.Infrastructure;
 
-namespace Supermarket.API.Services
+namespace Paladyne.TaskManager.Api.Services
 {
     public class ProductService : IProductService
     {

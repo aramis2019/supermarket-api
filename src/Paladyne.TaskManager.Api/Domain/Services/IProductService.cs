@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using Supermarket.API.Domain.Models;
-using Supermarket.API.Domain.Models.Queries;
-using Supermarket.API.Domain.Services.Communication;
+using Paladyne.TaskManager.Api.Domain.Models;
+using Paladyne.TaskManager.Api.Domain.Models.Queries;
+using Paladyne.TaskManager.Api.Domain.Services.Communication;
 
-namespace Supermarket.API.Domain.Services
+namespace Paladyne.TaskManager.Api.Domain.Services
 {
     public interface IProductService
     {

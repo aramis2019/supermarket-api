@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Supermarket.API.Domain.Models;
-using Supermarket.API.Domain.Models.Queries;
+using Paladyne.TaskManager.Api.Domain.Models;
+using Paladyne.TaskManager.Api.Domain.Models.Queries;
 
-namespace Supermarket.API.Domain.Repositories
+namespace Paladyne.TaskManager.Api.Domain.Repositories
 {
     public interface IProductRepository
     {

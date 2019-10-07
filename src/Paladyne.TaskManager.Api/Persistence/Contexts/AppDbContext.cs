@@ -1,9 +1,9 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.InMemory.ValueGeneration.Internal;
-using Supermarket.API.Domain.Models;
+using Paladyne.TaskManager.Api.Domain.Models;
 
-namespace Supermarket.API.Persistence.Contexts
+namespace Paladyne.TaskManager.Api.Persistence.Contexts
 {
     public class AppDbContext : DbContext
     {
